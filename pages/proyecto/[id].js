@@ -107,7 +107,7 @@ const Proyecto = props => {
 }
 
 export async function getServerSideProps() {
-    const spreadSheetUrl = "https://docs.google.com/spreadsheets/d/1eXwDV5PGImTNXOPcfkXKlPADJezEuSotNk8EkrkO2c4/edit#gid=1749062419";
+    const spreadSheetUrl = "https://docs.google.com/spreadsheets/d/1OcR-u-Ku9D5RC2PQsM3n-WCNMJ18uxUYow-5PM-fPDc/edit#gid=1749062419";
     function getData() {
         return new Promise(resolve => {
             Tabletop.init({
