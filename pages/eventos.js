@@ -37,7 +37,7 @@ function Events(props) {
 }
 
 export async function getServerSideProps() {
-    const spreadSheetUrl = "https://docs.google.com/spreadsheets/d/1eXwDV5PGImTNXOPcfkXKlPADJezEuSotNk8EkrkO2c4/edit#gid=1749062419";
+    const spreadSheetUrl = "https://docs.google.com/spreadsheets/d/12VdXr4m9QAQYw8Nxk31al6J4b-psI-8t/edit#gid=1831241289";
     function getData() {
         return new Promise(resolve => {
             Tabletop.init({
