@@ -61,7 +61,7 @@ const Proyecto = props => {
                             <div className="w-full lg:w-1/3">
                                 <ShadowBox >
                                     <div className="flex flex-col ">
-                                        <h4 className="text-xl font-medium text-gray-800 self-start font-serif mb-2">Datos de contacto</h4>
+                                        <h4 className="text-xl font-medium text-gray-800 self-start font-serif mb-2">Dados de contato</h4>
                                         <ContactInfo project={project} noClamp />
                                         <SocialButtons project={project} />
                                     </div>
@@ -74,7 +74,7 @@ const Proyecto = props => {
                             </div>
                             <ShadowBox width={'lg:w-2/3 w-full'}>
                                 <div className="flex flex-col ">
-                                    <p className="font-bold text-lg text-gray-900">Descripción del proyecto:</p>
+                                    <p className="font-bold text-lg text-gray-900">Descrição do Projeto:</p>
                                     <p className="text-gray-700 text-lg text-sm">{project.descripcion}</p>
                                 </div>
                             </ShadowBox>
