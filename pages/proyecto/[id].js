@@ -81,8 +81,8 @@ const Proyecto = props => {
                             {project.servicio_a_domicilio === 'Sí' ?
                                 <ShadowBox width={'lg:w-1/3 w-full'}>
                                     <div className="flex flex-col">
-                                        <p className="font-bold text-gray-900 text-lg">Servicio a domiclio: {project.servicio_a_domicilio === 'Sí' ? ' ✅' : ' ⛔'}</p>
-                                        <p className="font-bold text-gray-900 text-lg">Zonas de envío: <span className="text-gray-700 font-normal">{project.zonas_servicio_a_domicilio}</span></p>
+                                        <p className="font-bold text-gray-900 text-lg">Delivery: {project.servicio_a_domicilio === 'Sí' ? ' ✅' : ' ⛔'}</p>
+                                        <p className="font-bold text-gray-900 text-lg">Local de Envio: <span className="text-gray-700 font-normal">{project.zonas_servicio_a_domicilio}</span></p>
                                     </div>
                                 </ShadowBox> : null}
                             {project.impacto_social ? <ShadowBox width={'w-full'}>
@@ -107,7 +107,7 @@ const Proyecto = props => {
 }
 
 export async function getServerSideProps() {
-    const spreadSheetUrl = "https://docs.google.com/spreadsheets/d/1Fh1oUfzVeQz2_2NMetk0nCXB7d45Vuf8ZJ-e9NGVcm8/edit?usp=sharing";
+    const spreadSheetUrl = "https://docs.google.com/spreadsheets/d/1eXwDV5PGImTNXOPcfkXKlPADJezEuSotNk8EkrkO2c4/edit#gid=1749062419";
     function getData() {
         return new Promise(resolve => {
             Tabletop.init({
