@@ -13,7 +13,7 @@ import {
 
 function ShareButtons({ project }) {
     const router = useRouter()
-    const url = `https://butantem.com${router.asPath}`
+    const url = `https://butantem.online/${router.asPath}`
     const text = `Apoie ${project.nombre} durante esta Pandemia. Conheça mais sobre este e outros projetos do ButanTem.`
     return (
         <div className="flex flex-col">
