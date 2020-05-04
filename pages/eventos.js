@@ -11,7 +11,7 @@ function Events(props) {
     return (
         <Layout>
             <Head>
-                <title>MEX VS COVID-19 Eventos para ajudar os que precisam de alimentos ou produtos de higiene cadastre sua entidade ou Igreja na luta contra a COVID-19</title>
+                <title>MEX VS COVID-19 Espaço para ajudar os que precisam de alimentos ou produtos de higiene cadastre sua entidade ou Igreja na luta contra a COVID-19</title>
                 <meta
                     key="description"
                     name="description"
