@@ -17,7 +17,7 @@ function ShareButtons({ project }) {
     const text = `Apoya a ${project.nombre} durante esta Pandemia. Conoce más sobre este y otros proyectos en MEX vs COVID-19.`
     return (
         <div className="flex flex-col">
-            <h4 className="text-xl font-medium text-gray-800 self-start font-serif mb-2">Compártelo</h4>
+            <h4 className="text-xl font-medium text-gray-800 self-start font-serif mb-2">Compartilhe</h4>
             <div className="flex flex-row justify-evenly">
                 <FacebookShareButton url={url} quote={text}>
                     <FacebookIcon size={32} round />
