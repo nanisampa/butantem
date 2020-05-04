@@ -12,7 +12,7 @@ function Home(props) {
   return (
     <Layout>
       <Head>
-        <title>MEX VS COVID-19 - Apoia as empresas e projetos brasileiros afetados pelo COVID-19</title>
+        <title>MEX VS COVID-19 - Apoia empresas e projetos do Butantã afetados pelo COVID-19</title>
         <meta
           key="description"
           name="description"
