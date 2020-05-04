@@ -25,7 +25,7 @@ O que você gostaria que os consumidores fizessem por você? (Ex: peça comida e
             </div>
         </div>
         <div>
-            <p className="text-center text-gray-800 p-6">Depois de ter todas as informações, envie-as para <a className="font-semibold hover:underline" href="mailto:butantem@gmail.com">butantem@gmai.com</a> para que publiquemos.</p>
+            <p className="text-center text-gray-800 p-6">Depois de ter todas as informações, envie-as para <a className="font-semibold hover:underline" href="mailto:butantem@gmail.com">butantem@gmail.com</a> para que publiquemos.</p>
         </div>
     </div>
 );
