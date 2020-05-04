@@ -25,7 +25,7 @@ function ShareButtons({ project }) {
                 <WhatsappShareButton title={text} url={url}>
                     <WhatsappIcon size={32} round />
                 </WhatsappShareButton>
-                <TwitterShareButton title={text} url={url} related={['mexvscovid19']}>
+                <TwitterShareButton title={text} url={url} related={['butantem']}>
                     <TwitterIcon size={32} round />
                 </TwitterShareButton>
                 <LinkedinShareButton summary={text} url={url}>
