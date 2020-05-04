@@ -28,10 +28,10 @@ class MyDocument extends Document {
                     <link rel='shortcut icon' href='/favicon.ico' />
 
                     <meta property='og:type' content='website' />
-                    <meta property='og:title' content='MEX vs COVID-19' />
-                    <meta property='og:description' content='MEX vs COVID-19 es una plataforma para apoyar a diferentes negocios mexicanos que han sido afectados por la pandemia del COVID-19.' />
-                    <meta property='og:site_name' content='MEX vs COVID-19' />
-                    <meta property='og:url' content='https://mexvscovid19.com/' />
+                    <meta property='og:title' content='Butantem' />
+                    <meta property='og:description' content='Butantem é uma plataforma para apoiar s diferentes negócios do Butantã que foram afetados pela pandemia do COVID-19.' />
+                    <meta property='og:site_name' content='Butantem' />
+                    <meta property='og:url' content='https://butantem.online/' />
                 </Head>
                 <body>
                     <Main />
