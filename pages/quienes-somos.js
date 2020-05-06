@@ -40,7 +40,7 @@ function QuienesSomos(props) {
 }
 
 export async function getServerSideProps() {
-    const spreadSheetUrl = "https://docs.google.com/spreadsheets/d/1Fh1oUfzVeQz2_2NMetk0nCXB7d45Vuf8ZJ-e9NGVcm8/edit?usp=sharing";
+    const spreadSheetUrl = "https://docs.google.com/spreadsheets/u/3/d/e/2PACX-1vRUXbn4A9aVqJLGS04A0nX-MyCembNcK_cPjAQ50iyhyItOAhwIE5kZi3r97d_xUiPhuRS77_Z32C_e/pubhtml#";
     function getData() {
         return new Promise(resolve => {
             Tabletop.init({
