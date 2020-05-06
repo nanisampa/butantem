@@ -12,7 +12,7 @@ function Home(props) {
   return (
     <Layout>
       <Head>
-        <title>MEX VS COVID-19 - Apoya a empresas o proyectos mexicanos afectados por el COVID-19</title>
+        <title>Butantem - Apoia empresas e projetos do Butantã afetados pelo COVID-19</title>
         <meta
           key="description"
           name="description"
@@ -33,7 +33,7 @@ function Home(props) {
 }
 
 export async function getServerSideProps() {
-  const spreadSheetUrl = "https://docs.google.com/spreadsheets/d/1eXwDV5PGImTNXOPcfkXKlPADJezEuSotNk8EkrkO2c4/edit#gid=1749062419";
+  const spreadSheetUrl = "https://docs.google.com/spreadsheets/d/1Fh1oUfzVeQz2_2NMetk0nCXB7d45Vuf8ZJ-e9NGVcm8/edit?usp=sharing";
   function getData() {
     return new Promise(resolve => {
       Tabletop.init({
