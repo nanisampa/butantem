@@ -9,7 +9,7 @@ function PoliticaPrivacidad() {
     return (
         <Layout>
             <Head>
-                <title>MEX VS COVID-19 - Políticas de privacidad</title>
+                <title>Butantem - Políticas de privacidade</title>
                 <meta
                     key="description"
                     name="description"
