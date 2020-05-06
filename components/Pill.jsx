@@ -2,7 +2,7 @@ const Pill = ({ category, subcategory }) => {
     let background = "bg-green-500"
     if (category === 'Comida') {
         background = "bg-blue-500"
-    } else if (category == 'Servicios') {
+    } else if (category == 'Serviços') {
         background = "bg-indigo-500"
     } else if (category == 'Tiendas') {
         background = "bg-teal-500"
