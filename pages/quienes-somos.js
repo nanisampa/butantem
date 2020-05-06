@@ -11,7 +11,7 @@ function QuienesSomos(props) {
     return (
         <Layout>
             <Head>
-                <title>MEX VS COVID-19 - Qué es y quiénes somos en este proyecto para apoyar a las empresas afectadas por el COVID-19</title>
+                <title>Butantem - O que é e quem somos neste projeto para apoiar as empresas afetadas pela COVID-19</title>
                 <meta
                     key="description"
                     name="description"
