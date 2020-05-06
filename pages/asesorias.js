@@ -11,7 +11,7 @@ function Events(props) {
     return (
         <Layout>
             <Head>
-                <title>MEX VS COVID-19 - Asesorías para ayudarte en temas relacionados al COVID-19</title>
+                <title>Butantem - Especialistas para ajuda nos temas relacionados  COVID-19</title>
                 <meta
                     key="description"
                     name="description"
@@ -22,8 +22,8 @@ function Events(props) {
             <main className="bg-covid-100">
                 <div className="container mx-auto ">
                     <div>
-                        <h2 className="text-2xl lg:text-3xl text-gray-900 leading-normal p-2 lg:p-10 text-center font-serif">Asesoría de expertos</h2>
-                        <p className="text-md font-serif px-4 pb-4 text-gray-800 text-center">Contamos con un grupo de expertos dispuestos a ayudarte en diferentes temas relevantes del COVID-19.</p>
+                        <h2 className="text-2xl lg:text-3xl text-gray-900 leading-normal p-2 lg:p-10 text-center font-serif">Consultoria Especializada</h2>
+                        <p className="text-md font-serif px-4 pb-4 text-gray-800 text-center">Contamos com um grupo de especialistas de diferentes áreas para falar sobre a COVID-19.</p>
                     </div>
                     <AdvisorsList advisories={asesorias} />
                 </div>
@@ -37,7 +37,7 @@ function Events(props) {
 }
 
 export async function getServerSideProps() {
-    const spreadSheetUrl = "https://docs.google.com/spreadsheets/d/1eXwDV5PGImTNXOPcfkXKlPADJezEuSotNk8EkrkO2c4/edit#gid=1749062419";
+    const spreadSheetUrl = "https://docs.google.com/spreadsheets/d/1Fh1oUfzVeQz2_2NMetk0nCXB7d45Vuf8ZJ-e9NGVcm8/edit?usp=sharing";
     function getData() {
         return new Promise(resolve => {
             Tabletop.init({
