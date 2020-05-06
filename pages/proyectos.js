@@ -57,12 +57,12 @@ function Directorio(props) {
     const [deliveryFilter, setDeliveryFilter] = useState([
         {
             selected: true,
-            name: 'Sí',
+            name: 'Sim',
             id: 0
         },
         {
             selected: true,
-            name: 'No',
+            name: 'Não',
             id: 1
         }
     ]);
@@ -85,7 +85,7 @@ function Directorio(props) {
     return (
         <Layout>
             <Head>
-                <title>MEX VS COVID-19 - Conoce los proyectos que fueron afectados por el COVID-19 y cómo apoyarlos</title>
+                <title>Butantem Conheça os projetos que foram afetados pelo COVID-19 e como apoia-los</title>
                 <meta
                     key="description"
                     name="description"
