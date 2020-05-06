@@ -10,10 +10,10 @@ class MyDocument extends Document {
         return (
             <Html lang="es">
                 <Head>
-                    <meta name='application-name' content='MEX vs COVID-19' />
+                    <meta name='application-name' content='Butantem' />
                     <meta name='apple-mobile-web-app-capable' content='yes' />
                     <meta name='apple-mobile-web-app-status-bar-style' content='default' />
-                    <meta name='apple-mobile-web-app-title' content='MEX vs COVID-19' />
+                    <meta name='apple-mobile-web-app-title' content='Butantem' />
                     <meta name='description' content='Best PWA App in the world' />
                     <meta name='format-detection' content='telephone=no' />
                     <meta name='mobile-web-app-capable' content='yes' />
@@ -28,9 +28,9 @@ class MyDocument extends Document {
                     <link rel='shortcut icon' href='/favicon.ico' />
 
                     <meta property='og:type' content='website' />
-                    <meta property='og:title' content='MEX vs COVID-19' />
+                    <meta property='og:title' content='Butantem' />
                     <meta property='og:description' content='Butantem é uma plataforma para apoiar os diferentes negócios do Butantã que foram afetados pela pandemia do COVID-19.' />
-                    <meta property='og:site_name' content='MEX vs COVID-19' />
+                    <meta property='og:site_name' content='Butantem' />
                     <meta property='og:url' content='https://butantem.online/' />
                 </Head>
                 <body>
