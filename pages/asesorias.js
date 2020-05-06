@@ -11,7 +11,7 @@ function Events(props) {
     return (
         <Layout>
             <Head>
-                <title>Butanten - Especialistas para ajuda nos temas relacionados  COVID-19</title>
+                <title>Butantem - Especialistas para ajuda nos temas relacionados  COVID-19</title>
                 <meta
                     key="description"
                     name="description"
