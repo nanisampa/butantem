@@ -10,10 +10,10 @@ class MyDocument extends Document {
         return (
             <Html lang="es">
                 <Head>
-                    <meta name='application-name' content='MEX vs COVID-19' />
+                    <meta name='application-name' content='Butantem' />
                     <meta name='apple-mobile-web-app-capable' content='yes' />
                     <meta name='apple-mobile-web-app-status-bar-style' content='default' />
-                    <meta name='apple-mobile-web-app-title' content='MX vs COVID' />
+                    <meta name='apple-mobile-web-app-title' content='Butantem' />
                     <meta name='description' content='Best PWA App in the world' />
                     <meta name='format-detection' content='telephone=no' />
                     <meta name='mobile-web-app-capable' content='yes' />
