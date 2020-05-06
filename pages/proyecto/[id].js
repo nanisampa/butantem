@@ -27,11 +27,11 @@ const Proyecto = props => {
     return (
         <Layout>
             <Head>
-                <title>MEX VS COVID-19 - Apoya a {project.nombre} durante la epidemia del COVID-19</title>
+                <title>Butantem - Apoia  {project.nombre} durante a epidemia do COVID-19</title>
                 <meta
                     key="description"
                     name="description"
-                    content={`Conoce toda la información de ${project.nombre} y apóyalos a través de Mex VS COVID-19. Una plataforma que ofrece ayuda para negocios afectados por la pandemia del COVID-19.`}
+                    content={`Conoce toda la información de ${project.nombre} e apoiamos através do Butantem. Uma plataforma que oferece ajuda para negócios afetados pela pandemia do COVID-19.`}
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
@@ -61,7 +61,7 @@ const Proyecto = props => {
                             <div className="w-full lg:w-1/3">
                                 <ShadowBox >
                                     <div className="flex flex-col ">
-                                        <h4 className="text-xl font-medium text-gray-800 self-start font-serif mb-2">Datos de contacto</h4>
+                                        <h4 className="text-xl font-medium text-gray-800 self-start font-serif mb-2">Dados de contato</h4>
                                         <ContactInfo project={project} noClamp />
                                         <SocialButtons project={project} />
                                     </div>
@@ -74,15 +74,15 @@ const Proyecto = props => {
                             </div>
                             <ShadowBox width={'lg:w-2/3 w-full'}>
                                 <div className="flex flex-col ">
-                                    <p className="font-bold text-lg text-gray-900">Descripción del proyecto:</p>
+                                    <p className="font-bold text-lg text-gray-900">Descrição do Projeto:</p>
                                     <p className="text-gray-700 text-lg text-sm">{project.descripcion}</p>
                                 </div>
                             </ShadowBox>
                             {project.servicio_a_domicilio === 'Sí' ?
                                 <ShadowBox width={'lg:w-1/3 w-full'}>
                                     <div className="flex flex-col">
-                                        <p className="font-bold text-gray-900 text-lg">Servicio a domiclio: {project.servicio_a_domicilio === 'Sí' ? ' ✅' : ' ⛔'}</p>
-                                        <p className="font-bold text-gray-900 text-lg">Zonas de envío: <span className="text-gray-700 font-normal">{project.zonas_servicio_a_domicilio}</span></p>
+                                        <p className="font-bold text-gray-900 text-lg">Delivery: {project.servicio_a_domicilio === 'Sí' ? ' ✅' : ' ⛔'}</p>
+                                        <p className="font-bold text-gray-900 text-lg">Envia Para: <span className="text-gray-700 font-normal">{project.zonas_servicio_a_domicilio}</span></p>
                                     </div>
                                 </ShadowBox> : null}
                             {project.impacto_social ? <ShadowBox width={'w-full'}>
@@ -107,7 +107,7 @@ const Proyecto = props => {
 }
 
 export async function getServerSideProps() {
-    const spreadSheetUrl = "https://docs.google.com/spreadsheets/d/1eXwDV5PGImTNXOPcfkXKlPADJezEuSotNk8EkrkO2c4/edit#gid=1749062419";
+    const spreadSheetUrl = "https://docs.google.com/spreadsheets/d/1Fh1oUfzVeQz2_2NMetk0nCXB7d45Vuf8ZJ-e9NGVcm8/edit?usp=sharing";
     function getData() {
         return new Promise(resolve => {
             Tabletop.init({
