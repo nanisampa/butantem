@@ -85,7 +85,7 @@ function Directorio(props) {
     return (
         <Layout>
             <Head>
-                <title>Butantem - Conheça os projetos que foram afetados pelo COVID-19 e como apoiar</title>
+                <title>Butantem - Conheça os projetos que foram afetados pelo COVID-19 e apoie o comércio local</title>
                 <meta
                     key="description"
                     name="description"
