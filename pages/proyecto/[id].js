@@ -81,7 +81,7 @@ const Proyecto = props => {
                             {project.servicio_a_domicilio === 'Sim' ?
                                 <ShadowBox width={'lg:w-1/3 w-full'}>
                                     <div className="flex flex-col">
-                                        <p className="font-bold text-gray-900 text-lg">Delivery: {project.servicio_a_domicilio === 'Sim' ? ' ✅' : ' ⛔'}</p>
+                                        <p className="font-bold text-gray-900 text-lg">Delivery: {project.servicio_a_domicilio === 'Sí' ? ' ✅' : ' ⛔'}</p>
                                         <p className="font-bold text-gray-900 text-lg">Envia Para: <span className="text-gray-700 font-normal">{project.zonas_servicio_a_domicilio}</span></p>
                                     </div>
                                 </ShadowBox> : null}
