@@ -43,21 +43,18 @@ function PoliticaPrivacidad() {
                             seguientes dados pessoais:
                             </p>
                         <ul className="p-4 list-disc">
-                            <li>Nombre</li>
+                            <li>Nome</li>
                             <li>Telefone particular</li>
                             <li>Telefone celular</li>
-                            <li>Correio Eletrônico</li>
+                            <li>Email</li>
                             <li>Endereço de Trabalho</li>
-                            <li>Correio eletrônico institucional</li>
-                            <li>Telefone institucional</li>
                             <li>Redes Sociais</li>
                             <li>Dados de contato</li>
                             <li>Dados de trabalho</li>
-                            <li>Dados sobre a situação profissional.</li>
                         </ul>
                         <p className="p-4">
                             <span className="font-semibold">
-                                ¿Com quem compartilhamos suas informacões pessoais e finalidades?
+                                Com quem compartilhamos suas informacões pessoais e finalidades?
                                 </span>
                         </p>
                         <p className=" p-4">
@@ -91,8 +88,8 @@ function PoliticaPrivacidad() {
                             por outras razões.
                             Prometemos mantê-lo informado sobre as alterações que esse aviso pode sofrer.
                             privacidade, através de: meios físicos e eletrônicos.
-                            O procedimento através do qual as notificações sobre alterações ou
-                            As atualizações deste aviso de privacidade são as seguintes:  envio por email..
+                            O procedimento através do qual será avisado sobre as notificações sobre alterações ou
+                            As atualizações deste aviso de privacidade são feitas por  envio por email..
                             <p className="p-4">
                             Última atualização: 21/05/2020
                             </p>
