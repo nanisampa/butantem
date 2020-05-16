@@ -11,7 +11,7 @@ const Footer = ({ name }) => (
 
                 </div>
                 <div className="flex p-2">
-                    <p className="text-sm text-white">Desenvolvido por <a href="https://twitter.com/jerocosio" className="underline font-bold hover:text-covid-900">@JeroCosio</a>, Código <a href="" className="underline font-bold hover:text-covid-900">Github</a>.</p>
+                    <p className="text-sm text-white">Desenvolvido por <a href="https://twitter.com/jerocosio" className="underline font-bold hover:text-covid-900">@JeroCosio</a>, Código <a href="" className="underline font-bold hover:text-covid-900">Butantem</a>.</p>
                 </div>
             </div>
         </div>
