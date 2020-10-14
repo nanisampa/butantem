@@ -9,7 +9,7 @@ module.exports = {
       },
       colors: {
         covid: {
-          100: '#DFDCE3',
+          100: '#CAEBF2',
           200: '#30415D',
           300: '#a3a686',
           400: '#efd9c8',
