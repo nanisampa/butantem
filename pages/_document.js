@@ -8,7 +8,7 @@ class MyDocument extends Document {
 
     render() {
         return (
-            <Html lang="es">
+            <Html lang="pt-br">
                 <Head>
                     <meta name='application-name' content='BUTANTEM' />
                     <meta name='apple-mobile-web-app-capable' content='yes' />
